@@ -10,8 +10,11 @@ A simple cross platform To Do List app with voice commands.
 Interested in cross platform development, I tried to make a first app with Xamarin and Azure Cognitive Services.
 
 ## To do
+- [X] Add/Delete tasks
+- [X] Done/Undone tasks
+- [X] Edit tasks
 - [X] Voice command "add task [task]"
-- [ ] Voice commands
+- [ ] Others voice commands
 - [ ] Persistence
 
 ## Can I help you?
