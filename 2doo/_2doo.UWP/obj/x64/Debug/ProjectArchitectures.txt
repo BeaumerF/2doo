@@ -1,2 +1,2 @@
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.UWP\_2doo.UWP.csproj;x64
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo\_2doo.csproj;neutral
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo.UWP\_2doo.UWP.csproj;x64
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\_2doo.csproj;neutral

@@ -11,8 +11,7 @@
 namespace _2doo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\FrBea\\Documents\\visual studio 2017\\Projects\\2doo - Copie - Copie\\2doo\\_2" +
-        "doo\\Views\\ItemDetailPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\FrBea\\Documents\\GitHub\\2doo\\2doo\\_2doo\\Views\\ItemDetailPage.xaml")]
     public partial class ItemDetailPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

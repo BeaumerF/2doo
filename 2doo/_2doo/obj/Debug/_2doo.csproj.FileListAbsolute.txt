@@ -1,92 +1,28 @@
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\_2doo.dll
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\_2doo.pdb
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Platform.pdb
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\obj\Debug\_2doo.csproj.CoreCompileInputs.cache
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\obj\Debug\_2doo.App.xaml.g.cs
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\obj\Debug\_2doo.Views.ItemDetailPage.xaml.g.cs
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\obj\Debug\_2doo.Views.ItemsPage.xaml.g.cs
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\obj\Debug\_2doo.Views.NewItemPage.xaml.g.cs
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\obj\Debug\_2doo.dll
-C:\Users\FrBea\Documents\Visual Studio 2017\Projects\2doo\2doo\_2doo\obj\Debug\_2doo.pdb
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo\2doo\_2doo\obj\Debug\_2doo.Views.SayItPage.xaml.g.cs
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Plugin.AudioRecorder.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Newtonsoft.Json.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\PCLStorage.Abstractions.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\PCLStorage.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Xamarin.Cognitive.BingSpeech.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Newtonsoft.Json.xml
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\PCLStorage.xml
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\PCLStorage.Abstractions.xml
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo\2doo\_2doo\bin\Debug\Xamarin.Cognitive.BingSpeech.xml
-C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo\obj\Debug\_2doo.csprojResolveAssemblyReference.cache
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\_2doo.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\_2doo.pdb
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Newtonsoft.Json.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\PCLStorage.Abstractions.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\PCLStorage.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Plugin.AudioRecorder.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Xamarin.Cognitive.BingSpeech.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Newtonsoft.Json.xml
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\PCLStorage.xml
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\PCLStorage.Abstractions.xml
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Xamarin.Cognitive.BingSpeech.xml
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Xamarin.Forms.Platform.pdb
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\obj\Debug\_2doo.csprojResolveAssemblyReference.cache
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\obj\Debug\_2doo.csproj.CoreCompileInputs.cache
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\obj\Debug\_2doo.App.xaml.g.cs
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\obj\Debug\_2doo.Views.ItemDetailPage.xaml.g.cs
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\obj\Debug\_2doo.Views.ItemsPage.xaml.g.cs
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\obj\Debug\_2doo.Views.NewItemPage.xaml.g.cs
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\obj\Debug\_2doo.Views.SayItPage.xaml.g.cs
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\obj\Debug\_2doo.dll
-C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo\obj\Debug\_2doo.pdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\_2doo.dll
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\_2doo.pdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Newtonsoft.Json.dll
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\PCLStorage.Abstractions.dll
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\PCLStorage.dll
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Plugin.AudioRecorder.dll
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Xamarin.Cognitive.BingSpeech.dll
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Newtonsoft.Json.xml
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\PCLStorage.xml
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\PCLStorage.Abstractions.xml
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Xamarin.Cognitive.BingSpeech.xml
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Xamarin.Forms.Platform.pdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\obj\Debug\_2doo.csprojResolveAssemblyReference.cache
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\obj\Debug\_2doo.csproj.CoreCompileInputs.cache
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\obj\Debug\_2doo.App.xaml.g.cs
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\obj\Debug\_2doo.Views.ItemDetailPage.xaml.g.cs
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\obj\Debug\_2doo.Views.ItemsPage.xaml.g.cs
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\obj\Debug\_2doo.Views.NewItemPage.xaml.g.cs
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\obj\Debug\_2doo.Views.SayItPage.xaml.g.cs
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\obj\Debug\_2doo.dll
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\obj\Debug\_2doo.pdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo\obj\Debug\_2doo.dll.mdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo\bin\Debug\_2doo.dll.mdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo\obj\Debug\_2doo.dll.mdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo\bin\Debug\_2doo.dll.mdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo\obj\Debug\_2doo.dll.mdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo\bin\Debug\_2doo.dll.mdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo\obj\Debug\_2doo.dll.mdb
-C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo\bin\Debug\_2doo.dll.mdb
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\_2doo.dll
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\_2doo.pdb
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\PCLStorage.dll
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Plugin.AudioRecorder.dll
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Xamarin.Cognitive.BingSpeech.dll
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\PCLStorage.xml
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Xamarin.Cognitive.BingSpeech.xml
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\obj\Debug\_2doo.csprojResolveAssemblyReference.cache
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\obj\Debug\_2doo.csproj.CoreCompileInputs.cache
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\obj\Debug\_2doo.App.xaml.g.cs
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\obj\Debug\_2doo.Views.ItemDetailPage.xaml.g.cs
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\obj\Debug\_2doo.Views.ItemsPage.xaml.g.cs
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\obj\Debug\_2doo.Views.NewItemPage.xaml.g.cs
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\obj\Debug\_2doo.Views.SayItPage.xaml.g.cs
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\obj\Debug\_2doo.dll
+C:\Users\FrBea\Documents\GitHub\2doo\2doo\_2doo\obj\Debug\_2doo.pdb

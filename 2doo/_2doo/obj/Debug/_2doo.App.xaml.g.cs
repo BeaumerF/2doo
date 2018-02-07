@@ -11,7 +11,7 @@
 namespace _2doo {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\FrBea\\documents\\visual studio 2017\\Projects\\2doo\\2doo\\_2doo\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\FrBea\\Documents\\GitHub\\2doo\\2doo\\_2doo\\App.xaml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
