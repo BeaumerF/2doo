@@ -1,0 +1,282 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Plugin.AudioRecorder</name>
+    </assembly>
+    <members>
+        <member name="T:Plugin.AudioRecorder.AudioRecorderService">
+            <summary>
+            A service that records audio on the device's microphone input.
+            </summary>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioRecorderService.AudioStreamDetails">
+            <summary>
+            Gets the details of the underlying audio stream.
+            </summary>
+            <remarks>Accessible once <see cref="M:Plugin.AudioRecorder.AudioRecorderService.StartRecording"/> has been called.</remarks>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioRecorderService.PreferredSampleRate">
+            <summary>
+            Gets/sets the preferred sample rate to be used during recording.
+            </summary>
+            <remarks>This value may be overridden by platform-specific implementations, e.g. the Android AudioManager will be asked for its preferred sample rate and may override any user-set value here.</remarks>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioRecorderService.IsRecording">
+            <summary>
+            Returns a value indicating if the <see cref="T:Plugin.AudioRecorder.AudioRecorderService"/> is currently recording audio
+            </summary>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioRecorderService.AudioSilenceTimeout">
+            <summary>
+            If <see cref="P:Plugin.AudioRecorder.AudioRecorderService.StopRecordingOnSilence"/> is set to <c>true</c>, this <see cref="T:System.TimeSpan"/> indicates the amount of 'silent' time is required before recording is stopped.
+            </summary>
+            <remarks>Defaults to 2 seconds.</remarks>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioRecorderService.TotalAudioTimeout">
+            <summary>
+            If <see cref="P:Plugin.AudioRecorder.AudioRecorderService.StopRecordingAfterTimeout"/> is set to <c>true</c>, this <see cref="T:System.TimeSpan"/> indicates the total amount of time to record audio for before recording is stopped. Defaults to 30 seconds.
+            </summary>
+            <seealso cref="P:Plugin.AudioRecorder.AudioRecorderService.StopRecordingAfterTimeout"/>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioRecorderService.StopRecordingOnSilence">
+            <summary>
+            Gets/sets a value indicating if the <see cref="T:Plugin.AudioRecorder.AudioRecorderService"/> should stop recording after silence (low audio signal) is detected.
+            </summary>
+            <remarks>Default is `true`</remarks>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioRecorderService.StopRecordingAfterTimeout">
+            <summary>
+            Gets/sets a value indicating if the <see cref="T:Plugin.AudioRecorder.AudioRecorderService"/> should stop recording after a certain amount of time.
+            </summary>
+            <remarks>Defaults to <c>true</c></remarks>
+            <seealso cref="P:Plugin.AudioRecorder.AudioRecorderService.TotalAudioTimeout"/>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioRecorderService.SilenceThreshold">
+            <summary>
+            Gets/sets a value indicating the signal threshold that determines silence.  If the recorder is being over or under aggressive when detecting silence, you can alter this value to achieve different results.
+            </summary>
+            <remarks>Defaults to .2.  Value should be between 0 and 1.</remarks>
+        </member>
+        <member name="E:Plugin.AudioRecorder.AudioRecorderService.AudioInputReceived">
+            <summary>
+            This event is raised when audio recording is complete and delivers a full filepath to the recorded audio file.
+            </summary>
+            <remarks>This event will be raised on a background thread to allow for any further processing needed.  The audio file will be <c>null</c> in the case that no audio was recorded.</remarks>
+        </member>
+        <member name="M:Plugin.AudioRecorder.AudioRecorderService.#ctor">
+            <summary>
+            Creates a new instance of the <see cref="T:Plugin.AudioRecorder.AudioRecorderService"/>.
+            </summary>
+        </member>
+        <member name="M:Plugin.AudioRecorder.AudioRecorderService.StartRecording">
+            <summary>
+            Starts recording audio.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> that will complete when recording is finished.  
+            The task result will be the path to the recorded audio file, or null if no audio was recorded.</returns>
+        </member>
+        <member name="M:Plugin.AudioRecorder.AudioRecorderService.GetAudioFileStream">
+            <summary>
+            Gets a new <see cref="T:System.IO.Stream"/> to the recording audio file in readonly mode.
+            </summary>
+            <returns>A <see cref="T:System.IO.Stream"/> object that can be used to read the audio file from the beginning.</returns>
+        </member>
+        <member name="M:Plugin.AudioRecorder.AudioRecorderService.StopRecording(System.Boolean)">
+            <summary>
+            Stops recording audio.
+            </summary>
+            <param name="continueProcessing"><c>true</c> (default) to finish recording and raise the <see cref="E:Plugin.AudioRecorder.AudioRecorderService.AudioInputReceived"/> event. 
+            Use <c>false</c> here to stop recording but do nothing further (from an error state, etc.).</param>
+        </member>
+        <member name="M:Plugin.AudioRecorder.AudioRecorderService.GetAudioFilePath">
+            <summary>
+            Gets the full filepath to the recorded audio file.
+            </summary>
+            <returns>The full filepath to the recorded audio file, or null if no audio was detected during the last record.</returns>
+        </member>
+        <member name="F:Plugin.AudioRecorder.AudioStream.audioSource">
+            <summary>
+            The audio source.
+            </summary>
+        </member>
+        <member name="E:Plugin.AudioRecorder.AudioStream.OnBroadcast">
+            <summary>
+            Occurs when new audio has been streamed.
+            </summary>
+        </member>
+        <member name="E:Plugin.AudioRecorder.AudioStream.OnActiveChanged">
+            <summary>
+            Occurs when the audio stream active status changes.
+            </summary>
+        </member>
+        <member name="E:Plugin.AudioRecorder.AudioStream.OnException">
+            <summary>
+            Occurs when there's an error while capturing audio.
+            </summary>
+        </member>
+        <member name="F:Plugin.AudioRecorder.AudioStream.DefaultDevice">
+            <summary>
+            The default device.
+            </summary>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioStream.SampleRate">
+            <summary>
+            Gets the sample rate.
+            </summary>
+            <value>
+            The sample rate.
+            </value>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioStream.BitsPerSample">
+            <summary>
+            Gets bits per sample.
+            </summary>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioStream.ChannelCount">
+            <summary>
+            Gets the channel count.
+            </summary>
+            <value>
+            The channel count.
+            </value>        
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioStream.AverageBytesPerSecond">
+            <summary>
+            Gets the average data transfer rate
+            </summary>
+            <value>The average data transfer rate in bytes per second.</value>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioStream.Active">
+            <summary>
+            Gets a value indicating if the audio stream is active.
+            </summary>
+        </member>
+        <member name="M:Plugin.AudioRecorder.AudioStream.Start">
+            <summary>
+            Starts the audio stream.
+            </summary>
+        </member>
+        <member name="M:Plugin.AudioRecorder.AudioStream.Stop">
+            <summary>
+            Stops the audio stream.
+            </summary>
+        </member>
+        <member name="M:Plugin.AudioRecorder.AudioStream.#ctor(System.Int32,Android.Media.ChannelIn,Android.Media.Encoding)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Plugin.AudioRecorder.AudioStream"/> class.
+            </summary>
+            <param name="sampleRate">Sample rate.</param>
+            <param name="channels">The <see cref="T:Android.Media.ChannelIn"/> value representing the number of channels to record.</param>
+            <param name="audioFormat">The format of the recorded audio.</param>
+        </member>
+        <member name="M:Plugin.AudioRecorder.AudioStream.Record">
+            <summary>
+            Record from the microphone and broadcast the buffer.
+            </summary>
+        </member>
+        <member name="T:Plugin.AudioRecorder.AudioFunctions">
+            <summary>
+            Contains functions used to work with audio recording.
+            </summary>
+        </member>
+        <member name="M:Plugin.AudioRecorder.AudioFunctions.WriteWavHeader(System.IO.Stream,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Writes a WAV file header using the specified details.
+            </summary>
+            <param name="stream">The <see cref="T:System.IO.Stream"/> to write the WAV header to.</param>
+            <param name="channelCount">The number of channels in the recorded audio.</param>
+            <param name="sampleRate">The sample rate of the recorded audio.</param>
+            <param name="bitsPerSample">The bits per sample of the recorded audio.</param>
+            <param name="audioLength">The length/byte count of the recorded audio, or -1 if recording is still in progress.</param>
+        </member>
+        <member name="T:Plugin.AudioRecorder.AudioStreamDetails">
+            <summary>
+            Represents the details of an <see cref="T:Plugin.AudioRecorder.IAudioStream"/>, including channel count, sample rate, and bits per sample.
+            </summary>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioStreamDetails.SampleRate">
+            <summary>
+            Gets the sample rate of the underlying audio stream.
+            </summary>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioStreamDetails.ChannelCount">
+            <summary>
+            Gets the channel count of the underlying audio stream.
+            </summary>
+        </member>
+        <member name="P:Plugin.AudioRecorder.AudioStreamDetails.BitsPerSample">
+            <summary>
+            Gets the bits per sample of the underlying audio stream.
+            </summary>
+        </member>
+        <member name="E:Plugin.AudioRecorder.IAudioStream.OnBroadcast">
+            <summary>
+            Occurs when new audio has been streamed.
+            </summary>
+        </member>
+        <member name="E:Plugin.AudioRecorder.IAudioStream.OnActiveChanged">
+            <summary>
+            Occurs when the audio stream active status changes.
+            </summary>
+        </member>
+        <member name="E:Plugin.AudioRecorder.IAudioStream.OnException">
+            <summary>
+            Occurs when there's an error while capturing audio.
+            </summary>
+        </member>
+        <member name="P:Plugin.AudioRecorder.IAudioStream.SampleRate">
+            <summary>
+            Gets the sample rate.
+            </summary>
+            <value>
+            The sample rate.
+            </value>
+        </member>
+        <member name="P:Plugin.AudioRecorder.IAudioStream.ChannelCount">
+            <summary>
+            Gets the channel count.
+            </summary>
+            <value>
+            The channel count.
+            </value>
+        </member>
+        <member name="P:Plugin.AudioRecorder.IAudioStream.BitsPerSample">
+            <summary>
+            Gets bits per sample.
+            </summary>
+        </member>
+        <member name="P:Plugin.AudioRecorder.IAudioStream.Active">
+            <summary>
+            Gets a value indicating if the audio stream is active.
+            </summary>
+        </member>
+        <member name="M:Plugin.AudioRecorder.IAudioStream.Start">
+            <summary>
+            Starts the audio stream.
+            </summary>
+        </member>
+        <member name="M:Plugin.AudioRecorder.IAudioStream.Stop">
+            <summary>
+            Stops the audio stream.
+            </summary>
+        </member>
+        <member name="M:Plugin.AudioRecorder.WaveRecorder.StartRecorder(Plugin.AudioRecorder.IAudioStream,System.String)">
+            <summary>
+            Starts recording WAVE format audio from the audio stream.
+            </summary>
+            <param name="stream">A <see cref="T:Plugin.AudioRecorder.IAudioStream"/> that provides the audio data.</param>
+            <param name="filePath">The full path of the file to record audio to.</param>
+        </member>
+        <member name="M:Plugin.AudioRecorder.WaveRecorder.GetAudioFileStream">
+            <summary>
+            Gets a new <see cref="T:System.IO.Stream"/> to the audio file in readonly mode.
+            </summary>
+            <returns>A <see cref="T:System.IO.Stream"/> object that can be used to read the audio file from the beginning.</returns>
+        </member>
+        <member name="M:Plugin.AudioRecorder.WaveRecorder.StopRecorder">
+            <summary>
+            Stops recording WAV audio from the underlying <see cref="T:Plugin.AudioRecorder.IAudioStream"/> and finishes writing the WAV file.
+            </summary>
+        </member>
+    </members>
+</doc>

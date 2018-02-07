@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Xamarin.Cognitive.BingSpeech</name>
+    </assembly>
+    <members>
+        <member name="T:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient">
+            <summary>
+            Bing speech API client.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.AuthClient">
+            <summary>
+            Gets the auth client.
+            </summary>
+            <value>The auth client.</value>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.SpeechEndpoint">
+            <summary>
+            Gets or sets the endpoint used to talk to the Speech API.
+            </summary>
+            <value>The endpoint.</value>
+            <remarks>To use a CRIS/Custom Speech Service endpoint, set this to a new <see cref="T:Xamarin.Cognitive.BingSpeech.Endpoint"/> with the details for your CRIS service.</remarks>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.RecognitionLanguage">
+            <summary>
+            Gets or sets the Recognition language.
+            </summary>
+            <remarks>Supported locales can be found here: 
+            https://docs.microsoft.com/en-us/azure/cognitive-services/speech/api-reference-rest/bingvoicerecognition#recognition-language</remarks>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.RecognitionMode">
+            <summary>
+            Gets or sets the recognition mode.
+            </summary>
+            <value>The recognition mode.</value>
+            <remarks>There are three modes of recognition: interactive, conversation, and dictation. 
+            The recognition mode adjusts speech recognition based on how the users are likely to speak. 
+            Choose the appropriate recognition mode for your application.
+            https://docs.microsoft.com/en-us/azure/cognitive-services/speech/api-reference-rest/bingvoicerecognition#recognition-modes</remarks>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.ProfanityMode">
+            <summary>
+            Gets or sets the profanity mode.
+            </summary>
+            <value>The profanity mode.</value>
+            <remarks>You can control how the service handles profanity by setting the profanity mode.  
+            https://docs.microsoft.com/en-us/azure/cognitive-services/speech/api-reference-rest/bingvoicerecognition#profanity-handling-in-speech-recognition</remarks>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.ApiVersion">
+            <summary>
+            Gets or sets the API version.
+            </summary>
+            <value>The API version. Defaults to "v1"</value>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient"/> class.
+            </summary>
+            <param name="subscriptionKey">A valid subscription key for the Bing Speech API.</param>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.Authenticate(System.Boolean)">
+            <summary>
+            Calls to the authentication endpoint to get a JWT token for authentication to the Bing Speech API.  Token is cached and valid for 9 minutes.
+            </summary>
+            <param name="forceNewToken">If set to <c>true</c>, force new token even if there is already a cached token.</param>
+            <remarks>This is called automatically when calling any of the SpeechToText* methods.  Call this separately up front to decrease latency on the initial API call.</remarks>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.SpeechToTextSimple(System.String)">
+            <summary>
+            Returns Speech to Text results for the given audio input.  Begins sending the audio stream to the server immediately.
+            </summary>
+            <returns>Simple Speech to Text results, which is a single result for the given speech input.</returns>
+            <param name="audioFilePath">Audio file path.</param>
+            <remarks>More info here: https://docs.microsoft.com/en-us/azure/cognitive-services/speech/api-reference-rest/bingvoicerecognition#output-format</remarks>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.SpeechToTextSimple(System.IO.Stream,System.Int32,System.Threading.Tasks.Task)">
+            <summary>
+            Returns Speech to Text results for the given audio input.  Assumes single channel (mono) audio at 16 bits per sample.
+            </summary>
+            <returns>Simple Speech to Text results, which is a single result for the given speech input.</returns>
+            <param name="audioStream">Audio stream containing the speech.</param>
+            <param name="sampleRate">The sample rate of the audio stream.</param>
+            <param name="recordingTask">A <see cref="T:System.Threading.Tasks.Task"/> that will complete when recording is complete.</param>
+            <remarks>More info here: https://docs.microsoft.com/en-us/azure/cognitive-services/speech/api-reference-rest/bingvoicerecognition#output-format</remarks>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.SpeechToTextSimple(System.IO.Stream,System.Int32,System.Int32,System.Int32,System.Threading.Tasks.Task)">
+            <summary>
+            Returns Speech to Text results for the given audio input.
+            </summary>
+            <returns>Simple Speech to Text results, which is a single result for the given speech input.</returns>
+            <param name="audioStream">Audio stream containing the speech.</param>
+            <param name="channelCount">The number of channels in the audio stream.</param>
+            <param name="sampleRate">The sample rate of the audio stream.</param>
+            <param name="bitsPerSample">The bits per sample of the audio stream.</param>
+            <param name="recordingTask">A <see cref="T:System.Threading.Tasks.Task"/> that will complete when recording is complete.</param>
+            <remarks>More info here: https://docs.microsoft.com/en-us/azure/cognitive-services/speech/api-reference-rest/bingvoicerecognition#output-format</remarks>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.SpeechToTextDetailed(System.String)">
+            <summary>
+            Returns Speech to Text results for the given audio input.
+            </summary>
+            <returns>Detailed Speech to Text results, including the N best results for the given speech input.</returns>
+            <param name="audioFilePath">Audio file path.</param>
+            <remarks>More info here: https://docs.microsoft.com/en-us/azure/cognitive-services/speech/api-reference-rest/bingvoicerecognition#output-format</remarks>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.SpeechToTextDetailed(System.IO.Stream,System.Int32,System.Threading.Tasks.Task)">
+            <summary>
+            Returns Speech to Text results for the given audio input.  Assumes single channel (mono) audio at 16 bits per sample.
+            </summary>
+            <returns>Detailed Speech to Text results, including the N best results for the given speech input.</returns>
+            <param name="audioStream">Audio stream containing the speech.</param>
+            <param name="sampleRate">The sample rate of the audio stream.</param>
+            <param name="recordingTask">A <see cref="T:System.Threading.Tasks.Task"/> that will complete when recording is complete.</param>
+            <remarks>More info here: https://docs.microsoft.com/en-us/azure/cognitive-services/speech/api-reference-rest/bingvoicerecognition#output-format</remarks>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.BingSpeechApiClient.SpeechToTextDetailed(System.IO.Stream,System.Int32,System.Int32,System.Int32,System.Threading.Tasks.Task)">
+            <summary>
+            Returns Speech to Text results for the given audio input.
+            </summary>
+            <returns>Detailed Speech to Text results, including the N best results for the given speech input.</returns>
+            <param name="audioStream">Audio stream containing the speech.</param>
+            <param name="channelCount">The number of channels in the audio stream.</param>
+            <param name="sampleRate">The sample rate of the audio stream.</param>
+            <param name="bitsPerSample">The bits per sample of the audio stream.</param>
+            <param name="recordingTask">A <see cref="T:System.Threading.Tasks.Task"/> that will complete when recording is complete.</param>
+            <remarks>More info here: https://docs.microsoft.com/en-us/azure/cognitive-services/speech/api-reference-rest/bingvoicerecognition#output-format</remarks>
+        </member>
+        <member name="T:Xamarin.Cognitive.BingSpeech.AuthenticationClient">
+            <summary>
+            Client that authenticates to the Bing Speech API.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.AuthenticationClient.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamarin.Cognitive.BingSpeech.AuthenticationClient"/> class.
+            </summary>
+            <param name="subscriptionId">Subscription identifier.</param>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.AuthenticationClient.Authenticate(System.Boolean)">
+            <summary>
+            Calls to the authentication endpoint to get a JWT token that is cached.
+            </summary>
+            <param name="forceNewToken">If set to <c>true</c>, force new token even if there is already a cached token.</param>
+        </member>
+        <member name="T:Xamarin.Cognitive.BingSpeech.RecognitionResult">
+            <summary>
+            Recognition result.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.RecognitionResult.RecognitionStatus">
+            <summary>
+            A string indicating the result status.  Successful requests will return "Success"
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.RecognitionResult.Offset">
+            <summary>
+            Gets or sets the offset.  
+            The Offset element specifies the offset (in 100-nanosecond units) at which the phrase was recognized, relative to the start of the audio stream.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.RecognitionResult.Duration">
+            <summary>
+            The duration of speech.  
+            The Duration element specifies the duration (in 100-nanosecond units) of this speech phrase.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.RecognitionResult.Results">
+            <summary>
+            A list of <see cref="T:Xamarin.Cognitive.BingSpeech.SpeechResult"/> containing the N-best results (top result + any alternatives), ordered by their confidence.
+            </summary>
+        </member>
+        <member name="T:Xamarin.Cognitive.BingSpeech.SpeechResult">
+            <summary>
+            A Speech result that is part of a detailed resultset.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.SpeechResult.Confidence">
+            <summary>
+            Confidence scores range from 0 to 1. A score of 1 represents the highest level of confidence. A score of 0 represents the lowest level of confidence.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.SpeechResult.Lexical">
+            <summary>
+            The lexical form is the recognized text, exactly how it occurred in the utterance and without punctuation or capitalization.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.SpeechResult.ITN">
+            <summary>
+            The ITN form of a recognition result does not include capitalization or punctuation. 
+            The ITN form is most appropriate for applications that act on the recognized text.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.SpeechResult.MaskedITN">
+            <summary>
+            The masked ITN form applies profanity masking to the inverse text normalization form.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.SpeechResult.Display">
+            <summary>
+            The display form adds punctuation and capitalization to recognition results, making it the most appropriate form for applications that display the spoken text.
+            </summary>
+        </member>
+        <member name="T:Xamarin.Cognitive.BingSpeech.RecognitionMode">
+            <summary>
+            Recognition mode.
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.RecognitionMode.Interactive">
+            <summary>
+            In interactive mode, a user makes short requests and expects the application to perform an action in response.
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.RecognitionMode.Conversation">
+            <summary>
+            In conversation mode, users are engaged in a human-to-human conversation.
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.RecognitionMode.Dictation">
+            <summary>
+            In dictation mode, users recite longer utterances to the application for further processing.
+            </summary>
+        </member>
+        <member name="T:Xamarin.Cognitive.BingSpeech.OutputMode">
+            <summary>
+            Output mode.
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.OutputMode.Simple">
+            <summary>
+            A simplified phrase result containing the recognition status and the recognized text in display form.
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.OutputMode.Detailed">
+            <summary>
+            A recognition status and N-best list of phrase results where each phrase result contains all four recognition forms and a confidence score.
+            </summary>
+        </member>
+        <member name="T:Xamarin.Cognitive.BingSpeech.RecognitionSpeechResult">
+            <summary>
+            A single speech result combining Recogniton result with Speech result.  This is used for Simple result mode.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.RecognitionSpeechResult.RecognitionStatus">
+            <summary>
+            A string indicating the result status.  Successful requests will return "Success"
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.RecognitionSpeechResult.Offset">
+            <summary>
+            Gets or sets the offset.  
+            The Offset element specifies the offset (in 100-nanosecond units) at which the phrase was recognized, relative to the start of the audio stream
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.RecognitionSpeechResult.Duration">
+            <summary>
+            The duration of speech.  
+            The Duration element specifies the duration (in 100-nanosecond units) of this speech phrase.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.RecognitionSpeechResult.DisplayText">
+            <summary>
+            The top result (by confidence), returned in Display Form.
+            </summary>
+            <remarks>The display form adds punctuation and capitalization to recognition results, making it the most appropriate form for applications that display the spoken text.</remarks>
+        </member>
+        <member name="T:Xamarin.Cognitive.BingSpeech.ProfanityMode">
+            <summary>
+            ProfanityMode defines the possible modes in which the service can handle profanity.
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.ProfanityMode.Masked">
+            <summary>
+            The service masks profanity.  This is the default.
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.ProfanityMode.Removed">
+            <summary>
+            The service removes profanity.
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.ProfanityMode.Raw">
+            <summary>
+            The service does not remove or mask profanity.
+            </summary>
+        </member>
+        <member name="T:Xamarin.Cognitive.BingSpeech.RecognitionStatus">
+            <summary>
+            Recognition status.
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.RecognitionStatus.Success">
+            <summary>
+            The recognition was successful and the DisplayText field will be present
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.RecognitionStatus.NoMatch">
+            <summary>
+            Speech was detected in the audio stream, but no words from the target language were matched. See below for more details
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.RecognitionStatus.InitialSilenceTimeout">
+            <summary>
+            The start of the audio stream contained only silence, and the service timed out waiting for speech
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.RecognitionStatus.BabbleTimeout">
+            <summary>
+            The start of the audio stream contained only noise, and the service timed out waiting for speech
+            </summary>
+        </member>
+        <member name="F:Xamarin.Cognitive.BingSpeech.RecognitionStatus.Error">
+            <summary>
+            The recognition service encountered an internal error and could not continue
+            </summary>
+        </member>
+        <member name="T:Xamarin.Cognitive.BingSpeech.Endpoint">
+            <summary>
+            Endpoint details.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.Endpoint.Protocol">
+            <summary>
+            Gets the protocol.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.Endpoint.Host">
+            <summary>
+            Gets the host.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.Endpoint.Port">
+            <summary>
+            Gets the port.
+            </summary>
+        </member>
+        <member name="P:Xamarin.Cognitive.BingSpeech.Endpoint.Path">
+            <summary>
+            Gets the path.
+            </summary>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.Endpoint.#ctor(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamarin.Cognitive.BingSpeech.Endpoint"/> class.
+            </summary>
+            <param name="protocol">Protocol.</param>
+            <param name="host">Host.</param>
+            <param name="port">Port.</param>
+            <param name="path">Path, including the leading '/'</param>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.Endpoint.#ctor(System.String,System.Int32,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamarin.Cognitive.BingSpeech.Endpoint"/> class. 
+            Assumes Https protocol.
+            </summary>
+            <param name="host">Host.</param>
+            <param name="port">Port.</param>
+            <param name="path">Path, including the leading '/'</param>
+        </member>
+        <member name="M:Xamarin.Cognitive.BingSpeech.Endpoint.#ctor(System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Xamarin.Cognitive.BingSpeech.Endpoint"/> class. 
+            Assumes Https protocol and port 443.
+            </summary>
+            <param name="host">Host.</param>
+            <param name="path">Path, including the leading '/'</param>
+        </member>
+        <member name="T:System.Net.Http.PushStreamContent">
+            <summary>
+            Provides an <see cref="T:System.Net.Http.HttpContent"/> implementation that exposes an output <see cref="T:System.IO.Stream"/>
+            which can be written to directly. The ability to push data to the output stream differs from the 
+            <see cref="T:System.Net.Http.StreamContent"/> where data is pulled and not pushed.
+            </summary>
+        </member>
+        <member name="M:System.Net.Http.PushStreamContent.#ctor(System.Action{System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext})">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Net.Http.PushStreamContent"/> class. The
+            <paramref name="onStreamAvailable"/> action is called when an output stream
+            has become available allowing the action to write to it directly. When the 
+            stream is closed, it will signal to the content that is has completed and the 
+            HTTP request or response will be completed.
+            </summary>
+            <param name="onStreamAvailable">The action to call when an output stream is available.</param>
+        </member>
+        <member name="M:System.Net.Http.PushStreamContent.#ctor(System.Func{System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext,System.Threading.Tasks.Task})">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Net.Http.PushStreamContent"/> class. 
+            </summary>
+            <param name="onStreamAvailable">The action to call when an output stream is available. The stream is automatically
+            closed when the return task is completed.</param>
+        </member>
+        <member name="M:System.Net.Http.PushStreamContent.#ctor(System.Action{System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext},System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Net.Http.PushStreamContent"/> class with the given media type.
+            </summary>
+        </member>
+        <member name="M:System.Net.Http.PushStreamContent.#ctor(System.Func{System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext,System.Threading.Tasks.Task},System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Net.Http.PushStreamContent"/> class with the given media type.
+            </summary>
+        </member>
+        <member name="M:System.Net.Http.PushStreamContent.#ctor(System.Action{System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext},System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Net.Http.PushStreamContent"/> class with the given <see cref="T:System.Net.Http.Headers.MediaTypeHeaderValue"/>.
+            </summary>
+        </member>
+        <member name="M:System.Net.Http.PushStreamContent.#ctor(System.Func{System.IO.Stream,System.Net.Http.HttpContent,System.Net.TransportContext,System.Threading.Tasks.Task},System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>
+            Initializes a new instance of the <see cref="T:System.Net.Http.PushStreamContent"/> class with the given <see cref="T:System.Net.Http.Headers.MediaTypeHeaderValue"/>.
+            </summary>
+        </member>
+        <member name="T:System.Net.Http.PushStreamContent.AsyncVoid">
+            <summary>
+            Used as the T in a "conversion" of a Task into a Task{T}
+            </summary>
+        </member>
+        <member name="M:System.Net.Http.PushStreamContent.SerializeToStreamAsync(System.IO.Stream,System.Net.TransportContext)">
+            <summary>
+            When this method is called, it calls the action provided in the constructor with the output 
+            stream to write to. Once the action has completed its work it closes the stream which will 
+            close this content instance and complete the HTTP request or response.
+            </summary>
+            <param name="stream">The <see cref="T:System.IO.Stream"/> to which to write.</param>
+            <param name="context">The associated <see cref="T:System.Net.TransportContext"/>.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> instance that is asynchronously serializing the object's content.</returns>
+        </member>
+        <member name="M:System.Net.Http.PushStreamContent.TryComputeLength(System.Int64@)">
+            <summary>
+            Computes the length of the stream if possible.
+            </summary>
+            <param name="length">The computed length of the stream.</param>
+            <returns><c>true</c> if the length has been computed; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:System.Net.Http.DelegatingStream">
+            <summary>
+            Stream that delegates to inner stream. 
+            This is taken from System.Net.Http
+            </summary>
+        </member>
+    </members>
+</doc>

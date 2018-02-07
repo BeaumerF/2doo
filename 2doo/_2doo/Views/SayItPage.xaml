@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_2doo.SayItPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="ADD task [name of a task]\n"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="ResultsLabel" HorizontalOptions="CenterAndExpand" LineBreakMode="WordWrap" MinimumHeightRequest="200" MinimumWidthRequest="400" BackgroundColor="Gray" />
+            <Button x:Name="register" Font="Large" Margin="0,20,0,0" Text="Say something" Clicked="RecordButton_Click" Grid.Row="4"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

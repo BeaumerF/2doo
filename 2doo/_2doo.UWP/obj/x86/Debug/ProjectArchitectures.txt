@@ -1,0 +1,2 @@
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo.UWP\_2doo.UWP.csproj;x86
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017\2doo\_2doo\_2doo.csproj;neutral

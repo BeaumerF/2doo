@@ -1,0 +1,201 @@
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider}{
+\section{\_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider Class Reference}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider}\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+global::Windows.UI.Xaml.Markup.IXamlType \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_b6669cae2613d48afbd020b2e9876a95}{GetXamlTypeByType} (global::System.Type type)
+\item 
+global::Windows.UI.Xaml.Markup.IXamlType \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_a05f2d0d33fc91b799b9c4f257765f28}{GetXamlTypeByName} (string typeName)
+\item 
+global::Windows.UI.Xaml.Markup.IXamlMember \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_8a8e3e5e3af2fe644249248cc71eae80}{GetMemberByLongName} (string longMemberName)
+\end{CompactItemize}
+\subsection*{Properties}
+\begin{CompactItemize}
+\item 
+global::System.Collections.Generic.List$<$ global::Windows.UI.Xaml.Markup.IXamlMetadataProvider $>$ \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_11604fabac4e9eb737a66513a87aa490}{OtherProviders}\hspace{0.3cm}{\tt  \mbox{[}get\mbox{]}}
+\end{CompactItemize}
+\subsection*{Private Member Functions}
+\begin{CompactItemize}
+\item 
+void \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_c73716b00fa88a12511d02e8aa25c234}{InitTypeTables} ()
+\item 
+int \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_f71ffe651a43f8224607ddc108668357}{LookupTypeIndexByName} (string typeName)
+\item 
+int \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_9d1d022c3abd15134c32ab1100b2fdc6}{LookupTypeIndexByType} (global::System.Type type)
+\item 
+object \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_e94d530fae5a300f492f6fb2e7ef4773}{Activate\_\-0\_\-WindowsPage} ()
+\item 
+object \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_8155049418f180c1fa65dc0de23326a4}{Activate\_\-4\_\-MainPage} ()
+\item 
+global::Windows.UI.Xaml.Markup.IXamlType \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_1006eb0b6ffa687ece81f28915b7827a}{CreateXamlType} (int typeIndex)
+\item 
+global::Windows.UI.Xaml.Markup.IXamlType \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_4cde10ba535f796606055361f670e908}{CheckOtherMetadataProvidersForName} (string typeName)
+\item 
+global::Windows.UI.Xaml.Markup.IXamlType \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_32f11282d6a3d2365640c91e58ba15da}{CheckOtherMetadataProvidersForType} (global::System.Type type)
+\item 
+global::Windows.UI.Xaml.Markup.IXamlMember \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_a54d549bb3ab97a5fa9525ad7c516602}{CreateXamlMember} (string longMemberName)
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+global::System.Collections.Generic.Dictionary$<$ string, global::Windows.UI.Xaml.Markup.IXamlType $>$ \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_5d88548b5b6d2a0898199478cd6b61a8}{\_\-xamlTypeCacheByName} = new global::System.Collections.Generic.Dictionary$<$string, global::Windows.UI.Xaml.Markup.IXamlType$>$()
+\item 
+global::System.Collections.Generic.Dictionary$<$ global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType $>$ \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_eba82514ea081ddecb11710f06466977}{\_\-xamlTypeCacheByType} = new global::System.Collections.Generic.Dictionary$<$global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType$>$()
+\item 
+global::System.Collections.Generic.Dictionary$<$ string, global::Windows.UI.Xaml.Markup.IXamlMember $>$ \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_18564e6328553bb07be6bb74e7b33eae}{\_\-xamlMembers} = new global::System.Collections.Generic.Dictionary$<$string, global::Windows.UI.Xaml.Markup.IXamlMember$>$()
+\item 
+string\mbox{[}$\,$\mbox{]} \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_fb680314b765798a13cb12d18296d496}{\_\-typeNameTable} = null
+\item 
+global::System.Type\mbox{[}$\,$\mbox{]} \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_067fa855f3c19999ccb575fcedfe5d50}{\_\-typeTable} = null
+\item 
+global::System.Collections.Generic.List$<$ global::Windows.UI.Xaml.Markup.IXamlMetadataProvider $>$ \hyperlink{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_acb5175a4304dfde2dee06d4e35dd480}{\_\-otherProviders}
+\end{CompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_e94d530fae5a300f492f6fb2e7ef4773}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!Activate\_\-0\_\-WindowsPage@{Activate\_\-0\_\-WindowsPage}}
+\index{Activate\_\-0\_\-WindowsPage@{Activate\_\-0\_\-WindowsPage}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{Activate\_\-0\_\-WindowsPage}]{\setlength{\rightskip}{0pt plus 5cm}object \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.Activate\_\-0\_\-WindowsPage ()\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_e94d530fae5a300f492f6fb2e7ef4773}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_8155049418f180c1fa65dc0de23326a4}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!Activate\_\-4\_\-MainPage@{Activate\_\-4\_\-MainPage}}
+\index{Activate\_\-4\_\-MainPage@{Activate\_\-4\_\-MainPage}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{Activate\_\-4\_\-MainPage}]{\setlength{\rightskip}{0pt plus 5cm}object \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.Activate\_\-4\_\-MainPage ()\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_8155049418f180c1fa65dc0de23326a4}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_4cde10ba535f796606055361f670e908}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!CheckOtherMetadataProvidersForName@{CheckOtherMetadataProvidersForName}}
+\index{CheckOtherMetadataProvidersForName@{CheckOtherMetadataProvidersForName}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{CheckOtherMetadataProvidersForName}]{\setlength{\rightskip}{0pt plus 5cm}global::Windows.UI.Xaml.Markup.IXamlType \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.CheckOtherMetadataProvidersForName (string {\em typeName})\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_4cde10ba535f796606055361f670e908}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_32f11282d6a3d2365640c91e58ba15da}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!CheckOtherMetadataProvidersForType@{CheckOtherMetadataProvidersForType}}
+\index{CheckOtherMetadataProvidersForType@{CheckOtherMetadataProvidersForType}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{CheckOtherMetadataProvidersForType}]{\setlength{\rightskip}{0pt plus 5cm}global::Windows.UI.Xaml.Markup.IXamlType \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.CheckOtherMetadataProvidersForType (global::System.Type {\em type})\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_32f11282d6a3d2365640c91e58ba15da}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_a54d549bb3ab97a5fa9525ad7c516602}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!CreateXamlMember@{CreateXamlMember}}
+\index{CreateXamlMember@{CreateXamlMember}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{CreateXamlMember}]{\setlength{\rightskip}{0pt plus 5cm}global::Windows.UI.Xaml.Markup.IXamlMember \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.CreateXamlMember (string {\em longMemberName})\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_a54d549bb3ab97a5fa9525ad7c516602}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_1006eb0b6ffa687ece81f28915b7827a}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!CreateXamlType@{CreateXamlType}}
+\index{CreateXamlType@{CreateXamlType}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{CreateXamlType}]{\setlength{\rightskip}{0pt plus 5cm}global::Windows.UI.Xaml.Markup.IXamlType \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.CreateXamlType (int {\em typeIndex})\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_1006eb0b6ffa687ece81f28915b7827a}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_8a8e3e5e3af2fe644249248cc71eae80}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!GetMemberByLongName@{GetMemberByLongName}}
+\index{GetMemberByLongName@{GetMemberByLongName}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{GetMemberByLongName}]{\setlength{\rightskip}{0pt plus 5cm}global::Windows.UI.Xaml.Markup.IXamlMember \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.GetMemberByLongName (string {\em longMemberName})}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_8a8e3e5e3af2fe644249248cc71eae80}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_a05f2d0d33fc91b799b9c4f257765f28}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!GetXamlTypeByName@{GetXamlTypeByName}}
+\index{GetXamlTypeByName@{GetXamlTypeByName}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{GetXamlTypeByName}]{\setlength{\rightskip}{0pt plus 5cm}global::Windows.UI.Xaml.Markup.IXamlType \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.GetXamlTypeByName (string {\em typeName})}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_a05f2d0d33fc91b799b9c4f257765f28}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_b6669cae2613d48afbd020b2e9876a95}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!GetXamlTypeByType@{GetXamlTypeByType}}
+\index{GetXamlTypeByType@{GetXamlTypeByType}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{GetXamlTypeByType}]{\setlength{\rightskip}{0pt plus 5cm}global::Windows.UI.Xaml.Markup.IXamlType \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.GetXamlTypeByType (global::System.Type {\em type})}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_b6669cae2613d48afbd020b2e9876a95}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_c73716b00fa88a12511d02e8aa25c234}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!InitTypeTables@{InitTypeTables}}
+\index{InitTypeTables@{InitTypeTables}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{InitTypeTables}]{\setlength{\rightskip}{0pt plus 5cm}void \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.InitTypeTables ()\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_c73716b00fa88a12511d02e8aa25c234}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_f71ffe651a43f8224607ddc108668357}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!LookupTypeIndexByName@{LookupTypeIndexByName}}
+\index{LookupTypeIndexByName@{LookupTypeIndexByName}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{LookupTypeIndexByName}]{\setlength{\rightskip}{0pt plus 5cm}int \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.LookupTypeIndexByName (string {\em typeName})\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_f71ffe651a43f8224607ddc108668357}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_9d1d022c3abd15134c32ab1100b2fdc6}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!LookupTypeIndexByType@{LookupTypeIndexByType}}
+\index{LookupTypeIndexByType@{LookupTypeIndexByType}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{LookupTypeIndexByType}]{\setlength{\rightskip}{0pt plus 5cm}int \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.LookupTypeIndexByType (global::System.Type {\em type})\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_9d1d022c3abd15134c32ab1100b2fdc6}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_acb5175a4304dfde2dee06d4e35dd480}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!\_\-otherProviders@{\_\-otherProviders}}
+\index{\_\-otherProviders@{\_\-otherProviders}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{\_\-otherProviders}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Collections.Generic.List$<$global::Windows.UI.Xaml.Markup.IXamlMetadataProvider$>$ {\bf \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.\_\-otherProviders}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_acb5175a4304dfde2dee06d4e35dd480}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_fb680314b765798a13cb12d18296d496}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!\_\-typeNameTable@{\_\-typeNameTable}}
+\index{\_\-typeNameTable@{\_\-typeNameTable}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{\_\-typeNameTable}]{\setlength{\rightskip}{0pt plus 5cm}string \mbox{[}$\,$\mbox{]} {\bf \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.\_\-typeNameTable} = null\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_fb680314b765798a13cb12d18296d496}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_067fa855f3c19999ccb575fcedfe5d50}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!\_\-typeTable@{\_\-typeTable}}
+\index{\_\-typeTable@{\_\-typeTable}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{\_\-typeTable}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Type \mbox{[}$\,$\mbox{]} {\bf \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.\_\-typeTable} = null\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_067fa855f3c19999ccb575fcedfe5d50}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_18564e6328553bb07be6bb74e7b33eae}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!\_\-xamlMembers@{\_\-xamlMembers}}
+\index{\_\-xamlMembers@{\_\-xamlMembers}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{\_\-xamlMembers}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Collections.Generic.Dictionary$<$string, global::Windows.UI.Xaml.Markup.IXamlMember$>$ {\bf \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.\_\-xamlMembers} = new global::System.Collections.Generic.Dictionary$<$string, global::Windows.UI.Xaml.Markup.IXamlMember$>$()\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_18564e6328553bb07be6bb74e7b33eae}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_5d88548b5b6d2a0898199478cd6b61a8}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!\_\-xamlTypeCacheByName@{\_\-xamlTypeCacheByName}}
+\index{\_\-xamlTypeCacheByName@{\_\-xamlTypeCacheByName}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{\_\-xamlTypeCacheByName}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Collections.Generic.Dictionary$<$string, global::Windows.UI.Xaml.Markup.IXamlType$>$ {\bf \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.\_\-xamlTypeCacheByName} = new global::System.Collections.Generic.Dictionary$<$string, global::Windows.UI.Xaml.Markup.IXamlType$>$()\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_5d88548b5b6d2a0898199478cd6b61a8}
+
+
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_eba82514ea081ddecb11710f06466977}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!\_\-xamlTypeCacheByType@{\_\-xamlTypeCacheByType}}
+\index{\_\-xamlTypeCacheByType@{\_\-xamlTypeCacheByType}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{\_\-xamlTypeCacheByType}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Collections.Generic.Dictionary$<$global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType$>$ {\bf \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.\_\-xamlTypeCacheByType} = new global::System.Collections.Generic.Dictionary$<$global::System.Type, global::Windows.UI.Xaml.Markup.IXamlType$>$()\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_eba82514ea081ddecb11710f06466977}
+
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_11604fabac4e9eb737a66513a87aa490}{
+\index{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}!OtherProviders@{OtherProviders}}
+\index{OtherProviders@{OtherProviders}!_2doo::UWP::_2doo_UWP_XamlTypeInfo::XamlTypeInfoProvider@{\_\-2doo::UWP::\_\-2doo\_\-UWP\_\-XamlTypeInfo::XamlTypeInfoProvider}}
+\subsubsection[{OtherProviders}]{\setlength{\rightskip}{0pt plus 5cm}global::System.Collections.Generic.List$<$global::Windows.UI.Xaml.Markup.IXamlMetadataProvider$>$ \_\-2doo.UWP.\_\-2doo\_\-UWP\_\-XamlTypeInfo.XamlTypeInfoProvider.OtherProviders\hspace{0.3cm}{\tt  \mbox{[}get, private\mbox{]}}}}
+\label{class__2doo_1_1_u_w_p_1_1__2doo___u_w_p___xaml_type_info_1_1_xaml_type_info_provider_11604fabac4e9eb737a66513a87aa490}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+C:/Users/FrBea/Desktop/rendu/DotNet\_\-todolist\_\-2017 - Copie/2doo/\_\-2doo.UWP/obj/x86/Debug/\hyperlink{_xaml_type_info_8g_8cs}{XamlTypeInfo.g.cs}\end{CompactItemize}

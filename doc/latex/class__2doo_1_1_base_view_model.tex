@@ -1,0 +1,114 @@
+\hypertarget{class__2doo_1_1_base_view_model}{
+\section{\_\-2doo.BaseViewModel Class Reference}
+\label{class__2doo_1_1_base_view_model}\index{\_\-2doo::BaseViewModel@{\_\-2doo::BaseViewModel}}
+}
+Inheritance diagram for \_\-2doo.BaseViewModel::\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2cm]{class__2doo_1_1_base_view_model}
+\end{center}
+\end{figure}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+IDataStore$<$ \hyperlink{class__2doo_1_1_item}{Item} $>$ \hyperlink{class__2doo_1_1_base_view_model_815111804c4cdcfd99aa3d1d4abe83dc}{DataStore} = $>$ DependencyService.Get$<$IDataStore$<$\hyperlink{class__2doo_1_1_item}{Item}$>$$>$() ?? new \hyperlink{class__2doo_1_1_mock_data_store}{MockDataStore}()
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+bool \hyperlink{class__2doo_1_1_base_view_model_7e567a53e0ba559b55afdb3f7abcc5b3}{SetProperty$<$ T $>$} (ref T backingStore, T value,\mbox{[}CallerMemberName\mbox{]}string propertyName=\char`\"{}\char`\"{}, Action onChanged=null)
+\item 
+void \hyperlink{class__2doo_1_1_base_view_model_cd7a51efc7fd0b8ef1649165eda3d96f}{OnPropertyChanged} (\mbox{[}CallerMemberName\mbox{]} string propertyName=\char`\"{}\char`\"{})
+\end{CompactItemize}
+\subsection*{Properties}
+\begin{CompactItemize}
+\item 
+bool \hyperlink{class__2doo_1_1_base_view_model_c94a9074f3da1063580a04e1d3cb2dcb}{IsBusy}\hspace{0.3cm}{\tt  \mbox{[}get, set\mbox{]}}
+\item 
+string \hyperlink{class__2doo_1_1_base_view_model_c7a6d8e8fbbf388d1d31864fc7e0f36b}{Title}\hspace{0.3cm}{\tt  \mbox{[}get, set\mbox{]}}
+\end{CompactItemize}
+\subsection*{Events}
+\begin{CompactItemize}
+\item 
+PropertyChangedEventHandler \hyperlink{class__2doo_1_1_base_view_model_df404d5944001b6d91d88dd4cac4e682}{PropertyChanged}
+\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+bool \hyperlink{class__2doo_1_1_base_view_model_2a7c2caffdf4c32c0c29841b5165d900}{isBusy} = false
+\item 
+string \hyperlink{class__2doo_1_1_base_view_model_c0cfcfe34cfd7f175d26314e08c8052d}{title} = string.Empty
+\end{CompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class__2doo_1_1_base_view_model_cd7a51efc7fd0b8ef1649165eda3d96f}{
+\index{\_\-2doo::BaseViewModel@{\_\-2doo::BaseViewModel}!OnPropertyChanged@{OnPropertyChanged}}
+\index{OnPropertyChanged@{OnPropertyChanged}!_2doo::BaseViewModel@{\_\-2doo::BaseViewModel}}
+\subsubsection[{OnPropertyChanged}]{\setlength{\rightskip}{0pt plus 5cm}void \_\-2doo.BaseViewModel.OnPropertyChanged (\mbox{[}CallerMemberName\mbox{]} string {\em propertyName} = {\tt \char`\"{}\char`\"{}})\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class__2doo_1_1_base_view_model_cd7a51efc7fd0b8ef1649165eda3d96f}
+
+
+\hypertarget{class__2doo_1_1_base_view_model_7e567a53e0ba559b55afdb3f7abcc5b3}{
+\index{\_\-2doo::BaseViewModel@{\_\-2doo::BaseViewModel}!SetProperty$<$ T $>$@{SetProperty$<$ T $>$}}
+\index{SetProperty$<$ T $>$@{SetProperty$<$ T $>$}!_2doo::BaseViewModel@{\_\-2doo::BaseViewModel}}
+\subsubsection[{SetProperty$<$ T $>$}]{\setlength{\rightskip}{0pt plus 5cm}bool \_\-2doo.BaseViewModel.SetProperty$<$ T $>$ (ref T {\em backingStore}, \/  T {\em value}, \/  \mbox{[}CallerMemberName\mbox{]} string {\em propertyName} = {\tt \char`\"{}\char`\"{}}, \/  Action {\em onChanged} = {\tt null})\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class__2doo_1_1_base_view_model_7e567a53e0ba559b55afdb3f7abcc5b3}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class__2doo_1_1_base_view_model_815111804c4cdcfd99aa3d1d4abe83dc}{
+\index{\_\-2doo::BaseViewModel@{\_\-2doo::BaseViewModel}!DataStore@{DataStore}}
+\index{DataStore@{DataStore}!_2doo::BaseViewModel@{\_\-2doo::BaseViewModel}}
+\subsubsection[{DataStore}]{\setlength{\rightskip}{0pt plus 5cm}IDataStore$<${\bf Item}$>$ {\bf \_\-2doo.BaseViewModel.DataStore} = $>$ DependencyService.Get$<$IDataStore$<${\bf Item}$>$$>$() ?? new {\bf MockDataStore}()}}
+\label{class__2doo_1_1_base_view_model_815111804c4cdcfd99aa3d1d4abe83dc}
+
+
+\hypertarget{class__2doo_1_1_base_view_model_2a7c2caffdf4c32c0c29841b5165d900}{
+\index{\_\-2doo::BaseViewModel@{\_\-2doo::BaseViewModel}!isBusy@{isBusy}}
+\index{isBusy@{isBusy}!_2doo::BaseViewModel@{\_\-2doo::BaseViewModel}}
+\subsubsection[{isBusy}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \_\-2doo.BaseViewModel.isBusy} = false\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_base_view_model_2a7c2caffdf4c32c0c29841b5165d900}
+
+
+\hypertarget{class__2doo_1_1_base_view_model_c0cfcfe34cfd7f175d26314e08c8052d}{
+\index{\_\-2doo::BaseViewModel@{\_\-2doo::BaseViewModel}!title@{title}}
+\index{title@{title}!_2doo::BaseViewModel@{\_\-2doo::BaseViewModel}}
+\subsubsection[{title}]{\setlength{\rightskip}{0pt plus 5cm}string {\bf \_\-2doo.BaseViewModel.title} = string.Empty\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class__2doo_1_1_base_view_model_c0cfcfe34cfd7f175d26314e08c8052d}
+
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class__2doo_1_1_base_view_model_c94a9074f3da1063580a04e1d3cb2dcb}{
+\index{\_\-2doo::BaseViewModel@{\_\-2doo::BaseViewModel}!IsBusy@{IsBusy}}
+\index{IsBusy@{IsBusy}!_2doo::BaseViewModel@{\_\-2doo::BaseViewModel}}
+\subsubsection[{IsBusy}]{\setlength{\rightskip}{0pt plus 5cm}bool \_\-2doo.BaseViewModel.IsBusy\hspace{0.3cm}{\tt  \mbox{[}get, set\mbox{]}}}}
+\label{class__2doo_1_1_base_view_model_c94a9074f3da1063580a04e1d3cb2dcb}
+
+
+\hypertarget{class__2doo_1_1_base_view_model_c7a6d8e8fbbf388d1d31864fc7e0f36b}{
+\index{\_\-2doo::BaseViewModel@{\_\-2doo::BaseViewModel}!Title@{Title}}
+\index{Title@{Title}!_2doo::BaseViewModel@{\_\-2doo::BaseViewModel}}
+\subsubsection[{Title}]{\setlength{\rightskip}{0pt plus 5cm}string \_\-2doo.BaseViewModel.Title\hspace{0.3cm}{\tt  \mbox{[}get, set\mbox{]}}}}
+\label{class__2doo_1_1_base_view_model_c7a6d8e8fbbf388d1d31864fc7e0f36b}
+
+
+
+
+\subsection{Event Documentation}
+\hypertarget{class__2doo_1_1_base_view_model_df404d5944001b6d91d88dd4cac4e682}{
+\index{\_\-2doo::BaseViewModel@{\_\-2doo::BaseViewModel}!PropertyChanged@{PropertyChanged}}
+\index{PropertyChanged@{PropertyChanged}!_2doo::BaseViewModel@{\_\-2doo::BaseViewModel}}
+\subsubsection[{PropertyChanged}]{\setlength{\rightskip}{0pt plus 5cm}PropertyChangedEventHandler \_\-2doo.BaseViewModel.PropertyChanged}}
+\label{class__2doo_1_1_base_view_model_df404d5944001b6d91d88dd4cac4e682}
+
+
+
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+C:/Users/FrBea/Desktop/rendu/DotNet\_\-todolist\_\-2017 - Copie/2doo/\_\-2doo/ViewModels/\hyperlink{_base_view_model_8cs}{BaseViewModel.cs}\end{CompactItemize}

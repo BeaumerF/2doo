@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             x:Class="_2doo.NewItemPage"
+		Title="New Item">
+	<ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save 💾" Clicked="Save_Clicked" />
+	</ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Spacing="20" Padding="15">
+            <Label Text="Text" FontSize="Medium" />
+            <Entry Text="{Binding Item.Text}" FontSize="Small" />
+            <Label Text="Description" FontSize="Medium" />
+            <Editor Text="{Binding Item.Description}" FontSize="Small" />
+            <Label Text="Due Date" FontSize="Medium" />
+            <DatePicker VerticalOptions="CenterAndExpand" Date="{Binding Item.Deadline}" MinimumDate="{Binding today}">
+                <DatePicker.Format>yyyy-MM-dd</DatePicker.Format>
+                <DatePicker.MaximumDate>
+                    <sys:DateTime x:FactoryMethod="Parse">
+                        <x:Arguments>
+                            <x:String>Dec 31 2042</x:String>
+                        </x:Arguments>
+                    </sys:DateTime>
+                </DatePicker.MaximumDate>
+            </DatePicker>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

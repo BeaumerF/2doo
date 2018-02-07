@@ -1,0 +1,197 @@
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\_2doo.Android.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\_2doo.Android.pdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\com.companyname.x_2doo.apk
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\com.companyname.x_2doo-Signed.apk
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Transition.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\_2doo.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\_2doo.pdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\FormsViewGroup.pdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\_2doo.Android.csprojResolveAssemblyReference.cache
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\_2doo.Android.csproj.CoreCompileInputs.cache
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\_2doo.Android.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\_2doo.Android.pdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\android\bin\com.companyname.x_2doo.apk
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\res\layout\tabbar.xml
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\res\layout\toolbar.xml
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\res\values\styles.xml
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\res\drawable\xamarin_logo.png
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\R.cs.flag
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\uploadflags.txt
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Newtonsoft.Json.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\PCLStorage.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Plugin.AudioRecorder.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Cognitive.BingSpeech.dll
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Newtonsoft.Json.xml
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\PCLStorage.xml
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Plugin.AudioRecorder.xml
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Cognitive.BingSpeech.xml
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\obj\Debug\_2doo.Android.dll.mdb
+C:\Users\FrBea\documents\visual studio 2017\Projects\2doo\2doo\_2doo.Android\bin\Debug\_2doo.Android.dll.mdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\_2doo.Android.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\_2doo.Android.pdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\com.companyname.x_2doo.apk
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\com.companyname.x_2doo-Signed.apk
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Newtonsoft.Json.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\PCLStorage.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Plugin.AudioRecorder.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Transition.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Cognitive.BingSpeech.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\_2doo.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\_2doo.pdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\FormsViewGroup.pdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Newtonsoft.Json.xml
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\PCLStorage.xml
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Plugin.AudioRecorder.xml
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Cognitive.BingSpeech.xml
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\_2doo.Android.csprojResolveAssemblyReference.cache
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\_2doo.Android.csproj.CoreCompileInputs.cache
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\_2doo.Android.dll
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\_2doo.Android.pdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\android\bin\com.companyname.x_2doo.apk
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\res\layout\tabbar.xml
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\res\layout\toolbar.xml
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\res\values\styles.xml
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\res\drawable\xamarin_logo.png
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\R.cs.flag
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\uploadflags.txt
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\obj\Debug\_2doo.Android.dll.mdb
+C:\Users\FrBea\Documents\visual studio 2017\Projects\2doo - Copie - Copie\2doo\_2doo.Android\bin\Debug\_2doo.Android.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\_2doo.Android.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\_2doo.Android.pdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\com.companyname.x_2doo.apk
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\com.companyname.x_2doo-Signed.apk
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\FormsViewGroup.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Newtonsoft.Json.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\PCLStorage.Abstractions.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\PCLStorage.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Plugin.AudioRecorder.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Animated.Vector.Drawable.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Transition.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.Palette.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.v7.RecyclerView.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Cognitive.BingSpeech.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\_2doo.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\_2doo.pdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\FormsViewGroup.pdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\FormsViewGroup.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Newtonsoft.Json.xml
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\PCLStorage.xml
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\PCLStorage.Abstractions.xml
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Plugin.AudioRecorder.xml
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Cognitive.BingSpeech.xml
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Core.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.Android.pdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\_2doo.Android.csprojResolveAssemblyReference.cache
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\_2doo.Android.csproj.CoreCompileInputs.cache
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\_2doo.Android.dll
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\_2doo.Android.pdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\android\bin\com.companyname.x_2doo.apk
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\res\layout\tabbar.xml
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\res\layout\toolbar.xml
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\res\values\styles.xml
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\res\drawable\xamarin_logo.png
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\R.cs.flag
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\uploadflags.txt
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\_2doo.Android.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\_2doo.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\android\assets\FormsViewGroup.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\android\assets\_2doo.Android.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\android\assets\_2doo.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\obj\Debug\_2doo.Android.dll.mdb
+C:\Users\FrBea\Desktop\rendu\DotNet_todolist_2017 - Copie\2doo\_2doo.Android\bin\Debug\_2doo.Android.dll.mdb
