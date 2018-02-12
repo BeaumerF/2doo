@@ -1,6 +1,9 @@
+![logo](./doc/2doo.png)
 
 # 2doo
 A simple cross platform To Do List app with voice commands.
+
+![screen1](./doc/screen1.png) ![screen2](./doc/screen2.png)
 
 ## What does it use?
   - Xamarin.forms
